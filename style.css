@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.banner-container{
+max-width:1550px ;
+    height: 650px;
+
+background: rgba(229, 84, 115, 0.1);
+}
+
+.parent{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+    gap: 80px;
+}
+
+.content{
+    width: 50%;
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content .titel-one{
+
+color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 70px;
+font-weight: 800;
+line-height: 76px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.content .p-one{
+color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+
+}
+.flower{
+    width: 50%;
+    height: 650px;
+}
+
+.content .btn{
+    color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+
+background: rgb(229, 84, 115);
+padding: 15px 35px 15px 35px;
+border: none;
+
+margin-top: 30px;
+}
+
+.flower{
+    display: flex;
+}
+
+
+/* main   */
+
+.sort-flower{
+    border: 2px solid black;
+
+    width: 90%;
+    margin: 0 auto;
+    height: 650px;
+
+}
+
+.sort-flower{
+    display: flex;
+    justify-content: center;
+}
+
+.sort-flower .fiture{
+    border: 2px solid red;
+    width: 594px;
+    height: 90px;  
+    text-align: center;
+
+}
+
+.threemain {
+
+    display: flex;
+
+    height: 538px;
+    width: 400px;
+    border: 2px solid red;
+}
+
+.threemain .div-one{
+
+}
